@@ -67,23 +67,7 @@ Benign Classes:
 
 The dataset was imbalanced (4:1 ratio), handled using class weighting.
 
----
 
-## 🏗 System Architecture
-
-User Upload Image  
-        ↓  
-Image Preprocessing (224x224, Normalization)  
-        ↓  
-MobileNetV2 (Pretrained CNN)  
-        ↓  
-Dense Layers  
-        ↓  
-Sigmoid Output  
-        ↓  
-Prediction + Confidence Score  
-
----
 
 ## 🛠 Tech Stack
 
